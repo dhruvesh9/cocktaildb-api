@@ -1,3 +1,6 @@
+import { CategoryService } from "./service/categoryservice";
 import { DrinkService } from "./service/drinkservice";
 
-DrinkService.getRandomDrink();
+//DrinkService.getRandomDrink();
+
+CategoryService.getCategory();
